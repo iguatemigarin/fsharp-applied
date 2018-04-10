@@ -1,0 +1,1 @@
+dotnet run --project src/chapter-03.fsproj

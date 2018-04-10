@@ -1,0 +1,1 @@
+dotnet run --project .\app\chapter-02.fsproj
