@@ -27,3 +27,15 @@ module Db =
             None
     let updatePerson personToBeUpdated =
         updatePersonById personToBeUpdated.Id personToBeUpdated
+    
+    let deletePerson personId =
+        peopleStorage.Remove personId |> ignore
+
+    let getPerson personId =
+        if peopleStorage.ContainsKey(personId) then
+            Some peopleStorage.[personId]
+        else
+            None
+
+    let isExist personId =
+        peopleStorage.ContainsKey(personId)
