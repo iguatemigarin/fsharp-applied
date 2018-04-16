@@ -2,13 +2,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "SuaveJwt", "SuaveJwt\SuaveJwt.fsproj", "{32FA3DC3-AF3A-4746-9B6C-6C259E5A88DA}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "SuaveJwt", "src\SuaveJwt\SuaveJwt.fsproj", "{32FA3DC3-AF3A-4746-9B6C-6C259E5A88DA}"
 EndProject
-Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "SuaveJwt.AuthServerHost", "SuaveJwt.AuthServerHost\SuaveJwt.AuthServerHost.fsproj", "{6C1463E0-F57A-48DB-B352-003FEE6910AF}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "SuaveJwt.AuthServerHost", "src\SuaveJwt.AuthServerHost\SuaveJwt.AuthServerHost.fsproj", "{6C1463E0-F57A-48DB-B352-003FEE6910AF}"
 EndProject
-Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Audience1", "Audience1\Audience1.fsproj", "{15F09338-FFD7-4B31-BA23-055B8A844A1F}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Audience1", "src\Audience1\Audience1.fsproj", "{15F09338-FFD7-4B31-BA23-055B8A844A1F}"
 EndProject
-Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Audience2", "Audience2\Audience2.fsproj", "{F2DCB9F7-1764-4152-AD25-7AB1667397FB}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Audience2", "src\Audience2\Audience2.fsproj", "{F2DCB9F7-1764-4152-AD25-7AB1667397FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
