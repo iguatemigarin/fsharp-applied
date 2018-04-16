@@ -15,8 +15,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="System.IdentityModel, Version=3">
-      <Hintpath>C:\windows\assembly\GAC_MSIL\System.IdentityModel\3.0.0.0__b77a5c561934e089\System.IdentityModel.dll</Hintpath>
+    <Reference Include="System.IdentityModel">
+      <Hintpath>..\lib\System.IdentityModel.dll</Hintpath>
     </Reference>
   </ItemGroup>
 
