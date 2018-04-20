@@ -1,8 +1,15 @@
-﻿// Learn more about F# at http://fsharp.org
+﻿namespace SuaveJwt.AuthServerHost
 
-open System
+open SuaveJwt.AuthServer
+open Suave.Web
 
-[<EntryPoint>]
-let main argv =
-    printfn "Hello World from F#!"
-    0 // return an integer exit code
+module Main =
+    [<EntryPoint>]
+    let main argv =
+        let authorizationServerConfig = {
+            AddAudienceUrlPath = "/api/audience"
+            SaveAudience = AudienceStorage.saveAudience
+        }
+        audienceWebpart authorizationServerConfig
+        |> startWebServer defaultConfig
+        0 // return an integer exit code
